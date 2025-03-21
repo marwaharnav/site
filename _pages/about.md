@@ -17,24 +17,28 @@ announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
+---
 
 latest_posts:
   enabled: false
   scrollable: false # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
+
+### education
+#### 1. B.tech Mechanical Engineering - minor specialisation in machine design
+  *relevant courses : mechanical vibrations, automatic control engineering, design of mechanical systems, elements of mechatronic systems, heat transfer, theory of machines*
+
 ---
 
-<details>
-<summary>my links </summary>
-  
+### my links  
   - LinkedIn: https://www.linkedin.com/in/arnav-marwaha-a7487a219  
   - X (twitter) : https://x.com/marwaharnav
   - Email: marwaharnav0@gmail.com
-    
-</details>
 
 ---
 
+
+### about me
 Hi, I am arnav Marwaha, a fourth-year mechanical engineering student from the Manipal Institute of Technology. At manipal, I have been involved with the [Parikshit Student Satellite](parikshitspace.in) in the capacity of system engineer and the subsystem head of the Structures, Thermals and Mechanisms Subsystem when I was not interning at GE Aerospace or DRDO. 
 
 Currently, I am working on my bachelors project at [BEUMER Group](https://www.beumergroup.com/about-us/beumer-india-private-limited/).
