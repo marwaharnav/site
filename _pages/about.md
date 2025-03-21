@@ -27,11 +27,9 @@ latest_posts:
 <details>
 <summary>my links </summary>
 
-  1. LinkedIn : https://www.linkedin.com/in/arnav-marwaha-a7487a219
-    
-  2. X (twitter) : https://x.com/marwaharnav
-  
-  3. Email : marwaharnav0@gmail.com
+  - LinkedIn : https://www.linkedin.com/in/arnav-marwaha-a7487a219  
+  - X (twitter) : https://x.com/marwaharnav
+  - Email : marwaharnav0@gmail.com
 </details>
 Hi, I am arnav Marwaha, a fourth-year mechanical engineering student from the Manipal Institute of Technology. At manipal, I have been involved with the [Parikshit Student Satellite](parikshitspace.in) in the capacity of system engineer and the subsystem head of the Structures, Thermals and Mechanisms Subsystem when I was not interning at GE Aerospace or DRDO. 
 
