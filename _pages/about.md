@@ -26,11 +26,15 @@ latest_posts:
 
 <details>
 <summary>my links </summary>
-
-  - LinkedIn : https://www.linkedin.com/in/arnav-marwaha-a7487a219  
+  
+  - LinkedIn: https://www.linkedin.com/in/arnav-marwaha-a7487a219  
   - X (twitter) : https://x.com/marwaharnav
-  - Email : marwaharnav0@gmail.com
+  - Email: marwaharnav0@gmail.com
+    
 </details>
+
+---
+
 Hi, I am arnav Marwaha, a fourth-year mechanical engineering student from the Manipal Institute of Technology. At manipal, I have been involved with the [Parikshit Student Satellite](parikshitspace.in) in the capacity of system engineer and the subsystem head of the Structures, Thermals and Mechanisms Subsystem when I was not interning at GE Aerospace or DRDO. 
 
 Currently, I am working on my bachelors project at [BEUMER Group](https://www.beumergroup.com/about-us/beumer-india-private-limited/).
