@@ -19,15 +19,10 @@ strong {
   color: var(--global-text-color);
 }
 
-@font-face {
-  font-family: 'Courier Prime';
-  src: url('../assets/fonts/courier-prime.eot');
-  src: url('../assets/fonts/courier-prime.eot?#iefix') format('embedded-opentype'),
-       url('../assets/fonts/courier-prime.woff') format('woff'),
-       url('../assets/fonts/courier-prime.ttf') format('truetype'),
-       url('../assets/fonts/courier-prime.svg#CourierPrime') format('svg');
-  font-weight: normal;
-  font-style: normal;
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap');
+
+body {
+  font-family: 'Courier Prime', monospace; // Apply Courier Prime to the entire body
 }
 
 
@@ -210,7 +205,7 @@ ul.task-list input[type="checkbox"] {
   .more-info {
     margin-bottom: 5px;
     margin-top: 5px;
-    font-family: 'Courier Prime' , monospace;
+    font-family: inherit;
 
     p {
       display: inline-block;
@@ -1366,7 +1361,7 @@ figure.cover {
   }
 
   figcaption.abandoned {
-    font-family: 'Courier Prime', monospace;
+    font-family: inherit;
     color: #23212d;
     text-transform: uppercase;
     background-color: #ee5f5b;
@@ -1381,7 +1376,7 @@ figure.cover {
   }
 
   figcaption.interested {
-    font-family: 'Courier Prime',monospace;
+    font-family: inherit;
     color: #23212d;
     text-transform: uppercase;
     background-color: #7691db;
@@ -1395,7 +1390,7 @@ figure.cover {
   }
 
   figcaption.queued {
-    font-family: 'Courier Prime',monospace;
+    font-family: inherit;
     color: #23212d;
     text-transform: uppercase;
     background-color: #9e76b5;
@@ -1403,7 +1398,7 @@ figure.cover {
 
   figcaption.reading,
   figcaption.watching {
-    font-family: 'Courier Prime',monospace;
+    font-family: inherit;
     color: #23212d;
     text-transform: uppercase;
     background-color: #f89406;
@@ -1411,14 +1406,14 @@ figure.cover {
 
   figcaption.reread,
   figcaption.rewatch {
-    font-family: 'Courier Prime',monospace;
+    font-family: inherit;
     color: #23212d;
     text-transform: uppercase;
     background-color: #a6517d;
   }
 
   figcaption.uncategorized {
-    font-family: 'Courier Prime',monospace;
+    font-family: inherit;
     color: #23212d;
     text-transform: uppercase;
     background-color: #b0abb3;
