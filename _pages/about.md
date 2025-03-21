@@ -24,20 +24,18 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 
 ---
-<details>
-  <summary>TLDR</summary>
 
-  **education**
+#### **education**
+  
   B.Tech mechanical engineering - machine design specialization
   
   *relevant courses: design of mechanical systems, mechanical vibrations, automatic control engineering, elements of mechatronics systems, heat transfer*
 
-  **my links**
+ #### **my links**
   1. linkedin @ [Linkedin](https://www.linkedin.com/in/arnav-marwaha-a7487a219/)
   2. X (twitter) @ [marwaharnav](https://x.com/marwaharnav)
   3. [email](marwaharnav0@gmail.com)
   
-</details>
 
 ---
 
