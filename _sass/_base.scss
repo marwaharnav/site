@@ -2,6 +2,14 @@
  * Styles for the base elements of the theme.
  ******************************************************************************/
 
+// Import Courier Prime from Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap');
+
+// Set the font-family for the entire body
+body {
+  font-family: 'Courier Prime', monospace;
+}
+
 // Typography
 
 p,
@@ -17,14 +25,8 @@ li,
 span,
 strong {
   color: var(--global-text-color);
+  font-family: 'Courier Prime', monospace; /* Apply to all text elements */
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap');
-
-body {
-  font-family: 'Courier Prime', monospace; // Apply Courier Prime to the entire body
-}
-
 
 hr {
   border-top: 1px solid var(--global-divider-color);
@@ -35,16 +37,19 @@ table {
   th {
     font-size: 1rem;
     padding: 1px 1rem 1px 0;
+    font-family: 'Courier Prime', monospace;
   }
 
   th {
     font-weight: bold;
+    font-family: 'Courier Prime', monospace;
   }
 }
 
 a,
 table.table a {
   color: var(--global-theme-color);
+  font-family: 'Courier Prime', monospace;
 
   &:hover {
     color: var(--global-theme-color);
@@ -69,6 +74,7 @@ blockquote {
   margin: 1.5em 0;
   padding: 1em;
   font-size: 1.2rem;
+  font-family: 'Courier Prime', monospace;
 
   p {
     margin-bottom: 0;
@@ -84,6 +90,7 @@ blockquote {
     p,
     strong {
       color: var(--global-tip-block-text);
+      font-family: 'Courier Prime', monospace;
     }
 
     h1,
@@ -93,6 +100,7 @@ blockquote {
     h5,
     h6 {
       color: var(--global-tip-block-title);
+      font-family: 'Courier Prime', monospace;
     }
   }
 
@@ -105,6 +113,7 @@ blockquote {
     p,
     strong {
       color: var(--global-warning-block-text);
+      font-family: 'Courier Prime', monospace;
     }
 
     h1,
@@ -114,6 +123,7 @@ blockquote {
     h5,
     h6 {
       color: var(--global-warning-block-title);
+      font-family: 'Courier Prime', monospace;
     }
   }
 
@@ -126,6 +136,7 @@ blockquote {
     p,
     strong {
       color: var(--global-danger-block-text);
+      font-family: 'Courier Prime', monospace;
     }
 
     h1,
@@ -135,6 +146,7 @@ blockquote {
     h5,
     h6 {
       color: var(--global-danger-block-title);
+      font-family: 'Courier Prime', monospace;
     }
   }
 }
@@ -143,11 +155,13 @@ blockquote {
 
 ul.task-list {
   list-style-type: none; /* Remove bullets from all levels */
+  font-family: 'Courier Prime', monospace;
 }
 
 ul.task-list > li ul {
   /* Nested lists within .task-list */
   padding-inline-start: 1.5rem;
+  font-family: 'Courier Prime', monospace;
 }
 
 ul.task-list input[type="checkbox"] {
@@ -160,6 +174,7 @@ ul.task-list input[type="checkbox"] {
 .equation {
   margin-bottom: 1rem;
   text-align: center;
+  font-family: 'Courier Prime', monospace;
 }
 
 // Caption
@@ -169,12 +184,14 @@ ul.task-list input[type="checkbox"] {
   margin-top: 0.75rem;
   margin-bottom: 1.5rem;
   text-align: center;
+  font-family: 'Courier Prime', monospace;
 }
 
 // Card
 
 .card {
   background-color: var(--global-card-bg-color);
+  font-family: 'Courier Prime', monospace;
 
   .card-img {
     width: 100%;
@@ -183,6 +200,7 @@ ul.task-list input[type="checkbox"] {
 
   .card-title {
     color: var(--global-text-color);
+    font-family: 'Courier Prime', monospace;
   }
 
   .card-body {
@@ -195,21 +213,24 @@ ul.task-list input[type="checkbox"] {
 .citation,
 .citation-number {
   color: var(--global-theme-color);
+  font-family: 'Courier Prime', monospace;
 }
 
 // Profile
 
 .profile {
   width: 100%;
+  font-family: 'Courier Prime', monospace;
 
   .more-info {
     margin-bottom: 5px;
     margin-top: 5px;
-    font-family: inherit;
+    font-family: monospace;
 
     p {
       display: inline-block;
       margin: 0;
+      font-family: 'Courier Prime', monospace;
     }
   }
 }
@@ -237,9 +258,11 @@ ul.task-list input[type="checkbox"] {
 .post-description {
   margin-bottom: 2rem;
   font-size: 0.875rem;
+  font-family: 'Courier Prime', monospace;
 
   a {
     color: inherit;
+    font-family: 'Courier Prime', monospace;
 
     &:hover {
       color: var(--global-theme-color);
@@ -255,18 +278,22 @@ ul.task-list input[type="checkbox"] {
   border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
   opacity: 0.95;
+  font-family: 'Courier Prime', monospace;
 }
 
 .navbar .dropdown-menu {
   background-color: var(--global-bg-color);
   border: 1px solid var(--global-divider-color);
+  font-family: 'Courier Prime', monospace;
 
   a:not(.active) {
     color: var(--global-text-color);
+    font-family: 'Courier Prime', monospace;
   }
 
   a:hover {
     color: var(--global-hover-color);
+    font-family: 'Courier Prime', monospace;
   }
 
   .dropdown-divider {
@@ -276,6 +303,7 @@ ul.task-list input[type="checkbox"] {
 
 .dropdown-item {
   color: var(--global-text-color);
+  font-family: 'Courier Prime', monospace;
 
   &:hover {
     color: var(--global-hover-color);
@@ -292,10 +320,12 @@ ul.task-list input[type="checkbox"] {
 
   .navbar-brand {
     color: var(--global-text-color);
+    font-family: 'Courier Prime', monospace;
   }
 
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
+    font-family: 'Courier Prime', monospace;
 
     &:hover {
       color: var(--global-hover-color);
@@ -306,6 +336,7 @@ ul.task-list input[type="checkbox"] {
     background-color: inherit;
     font-weight: bolder;
     color: var(--global-theme-color);
+    font-family: 'Courier Prime', monospace;
 
     &:hover {
       color: var(--global-hover-color);
@@ -316,6 +347,7 @@ ul.task-list input[type="checkbox"] {
     padding-bottom: 0;
     padding-top: 0;
     font-size: 1.7rem;
+    font-family: 'Courier Prime', monospace;
 
     a {
       img {
@@ -329,6 +361,7 @@ ul.task-list input[type="checkbox"] {
         width: 1.7rem;
         height: 1.7rem;
         margin-bottom: 0.5rem;
+        font-family: 'Courier Prime', monospace;
 
         image {
           width: 1.7rem;
@@ -339,6 +372,7 @@ ul.task-list input[type="checkbox"] {
       i::before {
         color: var(--global-text-color);
         transition-property: all 0.2s ease-in-out;
+        font-family: 'Courier Prime', monospace;
       }
 
       &:hover {
@@ -396,6 +430,7 @@ ul.task-list input[type="checkbox"] {
   border: 0;
   background-color: inherit;
   color: var(--global-text-color);
+  font-family: 'Courier Prime', monospace;
 
   &:hover {
     color: var(--global-hover-color);
@@ -406,6 +441,7 @@ ul.task-list input[type="checkbox"] {
 
 .social {
   text-align: center;
+  font-family: 'Courier Prime', monospace;
 
   .contact-icons {
     font-size: 4rem;
@@ -421,11 +457,6 @@ ul.task-list input[type="checkbox"] {
         width: 3.5rem;
         height: 4rem;
         margin-bottom: 0.5rem;
-
-        image {
-          width: 3.5rem;
-          height: 3.5rem;
-        }
       }
 
       i::before {
@@ -445,6 +476,7 @@ ul.task-list input[type="checkbox"] {
 
   .contact-note {
     font-size: 0.8rem;
+    font-family: 'Courier Prime', monospace;
   }
 }
 
@@ -460,6 +492,7 @@ ul.task-list input[type="checkbox"] {
   overflow: auto;
   background-color: rgb(0, 0, 0);
   background-color: rgba(0, 0, 0, 0.8);
+  font-family: 'Courier Prime', monospace;
 }
 
 .wechat-modal > img {
@@ -482,6 +515,7 @@ ul.task-list input[type="checkbox"] {
 footer.fixed-bottom {
   background-color: var(--global-footer-bg-color);
   font-size: 0.75rem;
+  font-family: 'Courier Prime', monospace;
 
   .container {
     color: var(--global-footer-text-color);
@@ -492,6 +526,7 @@ footer.fixed-bottom {
 
   a {
     color: var(--global-footer-link-color);
+    font-family: 'Courier Prime', monospace;
 
     &:hover {
       color: var(--global-theme-color);
@@ -505,6 +540,7 @@ footer.sticky-bottom {
   padding-top: 40px;
   padding-bottom: 40px;
   font-size: 0.9rem;
+  font-family: 'Courier Prime', monospace;
 
   .container {
     text-align: center;
@@ -515,6 +551,7 @@ footer.sticky-bottom {
 
 .cv {
   margin-bottom: 40px;
+  font-family: 'Courier Prime', monospace;
 
   .card {
     background-color: var(--global-card-bg-color);
@@ -523,6 +560,7 @@ footer.sticky-bottom {
     .list-group-item {
       background-color: inherit;
       border-color: var(--global-divider-color);
+      font-family: 'Courier Prime', monospace;
 
       .badge {
         color: var(--global-card-bg-color) !important;
@@ -536,11 +574,13 @@ footer.sticky-bottom {
   background-color: transparent;
   border: none;
   color: var(--global-text-color);
+  font-family: 'Courier Prime', monospace;
 }
 
 .date-column {
   width: 75px;
   transform: translateX(-15px) translateY(-5px);
+  font-family: 'Courier Prime', monospace;
 }
 
 // Repositories
@@ -558,10 +598,12 @@ footer.sticky-bottom {
   text-align: center;
   padding-top: 2rem;
   padding-bottom: 3rem;
+  font-family: 'Courier Prime', monospace;
 
   h1 {
     color: var(--global-theme-color);
     font-size: 5rem;
+    font-family: 'Courier Prime', monospace;
   }
 }
 
@@ -569,6 +611,7 @@ footer.sticky-bottom {
   border-bottom: 1px solid var(--global-divider-color);
   text-align: center;
   padding-top: 1rem;
+  font-family: 'Courier Prime', monospace;
 
   ul {
     justify-content: center;
@@ -580,6 +623,7 @@ footer.sticky-bottom {
       display: inline-block;
       padding: 1rem 0.5rem;
       color: var(--global-text-color-light);
+      font-family: 'Courier Prime', monospace;
     }
   }
 }
@@ -588,23 +632,27 @@ footer.sticky-bottom {
   mjx-container[jax="CHTML"][display="true"] {
     display: unset;
   }
+  font-family: 'Courier Prime', monospace;
 }
 
 .post-list {
   margin: 0;
   margin-bottom: 40px;
   padding: 0;
+  font-family: 'Courier Prime', monospace;
 
   li {
     border-bottom: 1px solid var(--global-divider-color);
     list-style: none;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    font-family: 'Courier Prime', monospace;
 
     .post-meta {
       color: var(--global-text-color-light);
       font-size: 0.875rem;
       margin-bottom: 0;
+      font-family: 'Courier Prime', monospace;
     }
 
     .post-tags {
@@ -612,11 +660,13 @@ footer.sticky-bottom {
       font-size: 0.875rem;
       padding-top: 0.25rem;
       padding-bottom: 0;
+      font-family: 'Courier Prime', monospace;
     }
 
     a {
       color: var(--global-text-color);
       text-decoration: none;
+      font-family: 'Courier Prime', monospace;
 
       &:hover {
         color: var(--global-theme-color);
@@ -630,10 +680,12 @@ footer.sticky-bottom {
 }
 
 .pagination {
+  font-family: 'Courier Prime', monospace;
   .page-item {
     .page-link {
       color: var(--global-text-color);
       padding: 0.75rem 1.15rem;
+      font-family: 'Courier Prime', monospace;
 
       &:hover {
         color: $black-color;
@@ -643,6 +695,7 @@ footer.sticky-bottom {
     &.active .page-link {
       color: $white-color;
       background-color: var(--global-theme-color);
+      font-family: 'Courier Prime', monospace;
 
       &:hover {
         background-color: var(--global-theme-color);
@@ -654,6 +707,7 @@ footer.sticky-bottom {
 // Distill
 
 .distill {
+  font-family: 'Courier Prime', monospace;
   a:hover {
     border-bottom-color: var(--global-theme-color);
     text-decoration: none;
@@ -663,6 +717,7 @@ footer.sticky-bottom {
 // Projects
 
 .projects {
+  font-family: 'Courier Prime', monospace;
   a {
     text-decoration: none;
 
@@ -703,6 +758,7 @@ footer.sticky-bottom {
 
 .publications {
   margin-top: 2rem;
+  font-family: 'Courier Prime', monospace;
 
   h1 {
     color: var(--global-theme-color);
@@ -714,6 +770,7 @@ footer.sticky-bottom {
 
   h2 {
     margin-bottom: 1rem;
+    font-family: 'Courier Prime', monospace;
 
     span {
       font-size: 1.5rem;
@@ -732,24 +789,29 @@ footer.sticky-bottom {
     list-style: none;
     padding: 0;
     margin-top: 0;
+    font-family: 'Courier Prime', monospace;
 
     li {
       margin-bottom: 1rem;
+      font-family: 'Courier Prime', monospace;
 
       .preview {
       }
 
       .abbr {
         margin-bottom: 0.5rem;
+        font-family: 'Courier Prime', monospace;
 
         abbr {
           display: inline-block;
           background-color: var(--global-theme-color);
           margin-bottom: 0.5rem;
           color: var(--global-card-bg-color) !important;
+          font-family: 'Courier Prime', monospace;
 
           a {
             color: white;
+            font-family: 'Courier Prime', monospace;
 
             &:hover {
               text-decoration: none;
@@ -760,16 +822,20 @@ footer.sticky-bottom {
         .award {
           color: var(--global-theme-color) !important;
           border: 1px solid var(--global-theme-color);
+          font-family: 'Courier Prime', monospace;
         }
       }
 
       .title {
         font-weight: bolder;
+        font-family: 'Courier Prime', monospace;
       }
 
       .author {
+        font-family: 'Courier Prime', monospace;
         a {
           border-bottom: 1px dashed var(--global-theme-color);
+          font-family: 'Courier Prime', monospace;
 
           &:hover {
             border-bottom-style: solid;
@@ -780,12 +846,14 @@ footer.sticky-bottom {
         > em {
           border-bottom: 1px solid;
           font-style: normal;
+          font-family: 'Courier Prime', monospace;
         }
 
         > span.more-authors {
           color: var(--global-text-color-light);
           border-bottom: 1px dashed var(--global-text-color-light);
           cursor: pointer;
+          font-family: 'Courier Prime', monospace;
 
           &:hover {
             color: var(--global-text-color);
@@ -795,6 +863,7 @@ footer.sticky-bottom {
       }
 
       .links {
+        font-family: 'Courier Prime', monospace;
         a.btn {
           color: var(--global-text-color);
           border: 1px solid var(--global-text-color);
@@ -803,6 +872,7 @@ footer.sticky-bottom {
           padding-top: 0.25rem;
           padding-bottom: 0.25rem;
           margin-left: 0;
+          font-family: 'Courier Prime', monospace;
 
           &:hover {
             color: var(--global-theme-color);
@@ -816,12 +886,14 @@ footer.sticky-bottom {
 
       .badges {
         padding-bottom: 0.5rem;
+        font-family: 'Courier Prime', monospace;
         span {
           display: inline-block;
           color: $black-color;
           height: 100%;
           padding-right: 0.5rem;
           vertical-align: middle;
+          font-family: 'Courier Prime', monospace;
 
           &:hover {
             text-decoration: underline;
@@ -839,6 +911,7 @@ footer.sticky-bottom {
         -ms-transition: 0.15s ease;
         -o-transition: 0.15s ease;
         transition: all 0.15s ease;
+        font-family: 'Courier Prime', monospace;
 
         p {
           line-height: 1.4em;
@@ -881,6 +954,7 @@ footer.sticky-bottom {
 // Rouge Color Customization
 figure.highlight {
   margin: 0 0 1rem;
+  font-family: 'Courier Prime', monospace;
 }
 
 pre {
@@ -888,6 +962,7 @@ pre {
   background-color: var(--global-code-bg-color);
   border-radius: 6px;
   padding: 6px 12px;
+  font-family: 'Courier Prime', monospace;
 
   pre,
   code {
@@ -895,6 +970,7 @@ pre {
     border-radius: 0;
     margin-bottom: 0;
     padding: 0;
+    font-family: 'Courier Prime', monospace;
   }
 }
 
@@ -903,6 +979,7 @@ code {
   background-color: var(--global-code-bg-color);
   border-radius: 3px;
   padding: 3px 3px;
+  font-family: 'Courier Prime', monospace;
 }
 
 // Transitioning Themes
@@ -916,10 +993,12 @@ html.transition *:after {
 
 // Extra Markdown style (post Customization)
 .post {
+  font-family: 'Courier Prime', monospace;
   .post-meta {
     color: var(--global-text-color-light);
     font-size: 0.875rem;
     margin-bottom: 0;
+    font-family: 'Courier Prime', monospace;
   }
 
   .post-tags {
@@ -927,10 +1006,12 @@ html.transition *:after {
     font-size: 0.875rem;
     padding-top: 0.25rem;
     padding-bottom: 1rem;
+    font-family: 'Courier Prime', monospace;
 
     a {
       color: var(--global-text-color-light);
       text-decoration: none;
+      font-family: 'Courier Prime', monospace;
 
       &:hover {
         color: var(--global-theme-color);
@@ -960,6 +1041,7 @@ progress {
 
   /* Progress bar container for Firefox/IE10  */
   background-color: transparent;
+  font-family: 'Courier Prime', monospace;
 
   /* Progress bar value for IE10  */
   color: var(--global-theme-color);
@@ -985,6 +1067,7 @@ progress::-moz-progress-bar {
   left: 0;
   height: 5px;
   display: block;
+  font-family: 'Courier Prime', monospace;
 }
 
 .progress-bar {
@@ -992,11 +1075,13 @@ progress::-moz-progress-bar {
   width: 0%;
   display: block;
   height: inherit;
+  font-family: 'Courier Prime', monospace;
 }
 
 /* Copy button */
 .code-display-wrapper {
   position: relative;
+  font-family: 'Courier Prime', monospace;
 
   .copy {
     background: var(--global-card-bg-color);
@@ -1009,6 +1094,7 @@ progress::-moz-progress-bar {
     position: absolute;
     right: 0.2rem;
     top: 0.2rem;
+    font-family: 'Courier Prime', monospace;
   }
 
   &:active .copy,
@@ -1020,6 +1106,7 @@ progress::-moz-progress-bar {
 }
 
 .btn-group.dropdown {
+  font-family: 'Courier Prime', monospace;
   .btn {
     box-shadow: none;
     -webkit-box-shadow: none;
@@ -1027,14 +1114,17 @@ progress::-moz-progress-bar {
 
   .btn-secondary.dropdown-toggle {
     border: 1px solid var(--global-divider-color);
+    font-family: 'Courier Prime', monospace;
 
     .page-size {
       color: inherit;
+      font-family: 'Courier Prime', monospace;
     }
 
     &:not(.active) {
       background-color: var(--global-bg-color) !important;
       color: var(--global-text-color);
+      font-family: 'Courier Prime', monospace;
     }
 
     &:hover {
@@ -1045,11 +1135,13 @@ progress::-moz-progress-bar {
 
   .dropdown-menu {
     background-color: var(--global-bg-color);
+    font-family: 'Courier Prime', monospace;
   }
 
   .dropdown-item {
     background-color: var(--global-bg-color);
     color: var(--global-text-color);
+    font-family: 'Courier Prime', monospace;
 
     &:hover {
       color: var(--global-hover-color);
@@ -1060,6 +1152,7 @@ progress::-moz-progress-bar {
   .dropdown-item:active {
     background-color: var(--global-hover-color);
     color: var(--global-hover-text-color) !important;
+    font-family: 'Courier Prime', monospace;
 
     &:hover {
       color: var(--global-hover-text-color);
@@ -1070,14 +1163,17 @@ progress::-moz-progress-bar {
 /* Table of Contents */
 nav[data-toggle="toc"] {
   top: 5rem;
+  font-family: 'Courier Prime', monospace;
 
   .nav .nav > li > a {
     font-size: 0.75rem;
+    font-family: 'Courier Prime', monospace;
   }
 
   .nav > li > a {
     color: var(--global-text-color);
     font-size: 0.75rem;
+    font-family: 'Courier Prime', monospace;
 
     &:hover {
       color: var(--global-hover-color);
@@ -1089,6 +1185,7 @@ nav[data-toggle="toc"] {
     color: var(--global-theme-color);
     border-left-color: var(--global-theme-color);
     font-size: 0.75rem;
+    font-family: 'Courier Prime', monospace;
 
     &:hover {
       color: var(--global-hover-color);
@@ -1108,21 +1205,26 @@ nav[data-toggle="toc"] {
 }
 
 .featured-posts {
+  font-family: 'Courier Prime', monospace;
   a {
     color: var(--global-text-color-light);
     text-decoration: none;
+    font-family: 'Courier Prime', monospace;
 
     .card-text {
       overflow: hidden;
       text-overflow: ellipsis;
       white-space: nowrap;
+      font-family: 'Courier Prime', monospace;
     }
 
     &:hover {
       color: var(--global-theme-color);
+      font-family: 'Courier Prime', monospace;
 
       .card-title {
         color: var(--global-theme-color);
+        font-family: 'Courier Prime', monospace;
       }
     }
   }
@@ -1132,47 +1234,57 @@ nav[data-toggle="toc"] {
     font-size: 0.875rem;
     margin-bottom: 0;
     padding-top: 0.5rem;
+    font-family: 'Courier Prime', monospace;
   }
 }
 
 .unloaded {
   display: none !important;
+  font-family: 'Courier Prime', monospace;
 }
 
 .medium-zoom-overlay,
 .medium-zoom-image--opened {
   z-index: 999;
+  font-family: 'Courier Prime', monospace;
 }
 
 #toc-sidebar {
   z-index: 1;
+  font-family: 'Courier Prime', monospace;
 }
 
 .echarts {
   height: 400px;
   width: 100%;
+  font-family: 'Courier Prime', monospace;
 }
 
 .map {
   height: 400px;
   width: 100%;
+  font-family: 'Courier Prime', monospace;
 }
 
 swiper-container {
   --swiper-navigation-color: var(--global-theme-color);
   --swiper-pagination-color: var(--global-theme-color);
   --swiper-pagination-bullet-inactive-color: var(--global-text-color);
+  font-family: 'Courier Prime', monospace;
 }
 
 .ps-root {
+  font-family: 'Courier Prime', monospace;
   .ps-algorithm {
     margin: 0.8em 0;
     border-top: 3px solid var(--global-text-color);
     border-bottom: 2px solid var(--global-text-color);
+    font-family: 'Courier Prime', monospace;
   }
 
   .ps-algorithm.with-caption > .ps-line:first-child {
     border-bottom: 2px solid var(--global-text-color);
+    font-family: 'Courier Prime', monospace;
   }
 }
 
@@ -1183,19 +1295,23 @@ ninja-keys {
   --ninja-icon-size: 0px;
   --ninja-modal-background: var(--global-bg-color);
   --ninja-z-index: 1031;
+  font-family: 'Courier Prime', monospace;
 }
 
 ninja-keys::part(ninja-input) {
   color: var(--ninja-selected-text-color);
+  font-family: 'Courier Prime', monospace;
 }
 
 ninja-keys::part(ninja-input-wrapper) {
   background: var(--global-bg-color);
+  font-family: 'Courier Prime', monospace;
 }
 
 // newsletter
 .newsletter-form-container {
   margin-bottom: 20px;
+  font-family: 'Courier Prime', monospace;
 }
 
 .newsletter-form {
@@ -1203,6 +1319,7 @@ ninja-keys::part(ninja-input-wrapper) {
   flex-direction: row;
   align-items: center;
   width: 100%;
+  font-family: 'Courier Prime', monospace;
 }
 
 .newsletter-form-input,
@@ -1219,6 +1336,7 @@ ninja-keys::part(ninja-input-wrapper) {
   box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px;
   border-radius: 6px;
   padding: 8px 12px;
+  font-family: 'Courier Prime', monospace;
 }
 
 .newsletter-form-input:focus {
@@ -1244,6 +1362,7 @@ ninja-keys::part(ninja-input-wrapper) {
   line-height: 20px;
   border: none;
   cursor: pointer;
+  font-family: 'Courier Prime', monospace;
 }
 
 .newsletter-loading-button {
@@ -1266,6 +1385,7 @@ ninja-keys::part(ninja-input-wrapper) {
   border: none;
   cursor: pointer;
   margin-right: 20px;
+  font-family: 'Courier Prime', monospace;
 }
 
 .newsletter-success {
@@ -1273,6 +1393,7 @@ ninja-keys::part(ninja-input-wrapper) {
   display: none;
   align-items: center;
   width: 100%;
+  font-family: 'Courier Prime', monospace;
 }
 
 .newsletter-error {
@@ -1280,6 +1401,7 @@ ninja-keys::part(ninja-input-wrapper) {
   display: none;
   align-items: center;
   width: 100%;
+  font-family: 'Courier Prime', monospace;
 }
 
 .newsletter-back-button {
@@ -1290,6 +1412,7 @@ ninja-keys::part(ninja-input-wrapper) {
   background: transparent;
   border: none;
   cursor: pointer;
+  font-family: 'Courier Prime', monospace;
 }
 
 @media (max-width: 575px) {
@@ -1310,18 +1433,22 @@ ninja-keys::part(ninja-input-wrapper) {
 .popover {
   background-color: var(--global-bg-color);
   border-color: var(--global-divider-color);
+  font-family: 'Courier Prime', monospace;
 
   .popover-header {
     color: var(--global-text-color); // Header text color
     border-bottom: 1px solid var(--global-divider-color);
+    font-family: 'Courier Prime', monospace;
   }
 
   .popover-body {
     color: var(--global-text-color); // Body text color
+    font-family: 'Courier Prime', monospace;
   }
 }
 
 .bs-popover-top {
+  font-family: 'Courier Prime', monospace;
   // arrow fill color
   .arrow::after {
     border-top-color: var(--global-bg-color);
@@ -1334,6 +1461,7 @@ ninja-keys::part(ninja-input-wrapper) {
 }
 
 .bs-popover-bottom {
+  font-family: 'Courier Prime', monospace;
   // arrow fill color
   .arrow::after {
     border-bottom-color: var(--global-bg-color);
@@ -1349,19 +1477,21 @@ ninja-keys::part(ninja-input-wrapper) {
 ::highlight(search) {
   background-color: var(--global-theme-color);
   color: var(--global-text-color);
+  font-family: 'Courier Prime', monospace;
 }
 
 figure.cover {
   display: inline-block;
   text-align: center;
   margin: 0.5rem; /* adjust as needed */
+  font-family: 'Courier Prime', monospace;
 
   img {
     vertical-align: bottom;
   }
 
   figcaption.abandoned {
-    font-family: inherit;
+    font-family: monospace;
     color: #23212d;
     text-transform: uppercase;
     background-color: #ee5f5b;
@@ -1369,28 +1499,28 @@ figure.cover {
 
   figcaption.finished,
   figcaption.watched {
-    font-family: 'Courier Prime',monospace;
+    font-family: monospace;
     color: #23212d;
     text-transform: uppercase;
     background-color: #62c462;
   }
 
   figcaption.interested {
-    font-family: inherit;
+    font-family: monospace;
     color: #23212d;
     text-transform: uppercase;
     background-color: #7691db;
   }
 
   figcaption.paused {
-    font-family: 'Courier Prime',monospace;
+    font-family: monospace;
     color: #23212d;
     text-transform: uppercase;
     background-color: #bdac7e;
   }
 
   figcaption.queued {
-    font-family: inherit;
+    font-family: monospace;
     color: #23212d;
     text-transform: uppercase;
     background-color: #9e76b5;
@@ -1398,7 +1528,7 @@ figure.cover {
 
   figcaption.reading,
   figcaption.watching {
-    font-family: inherit;
+    font-family: monospace;
     color: #23212d;
     text-transform: uppercase;
     background-color: #f89406;
@@ -1406,14 +1536,14 @@ figure.cover {
 
   figcaption.reread,
   figcaption.rewatch {
-    font-family: inherit;
+    font-family: monospace;
     color: #23212d;
     text-transform: uppercase;
     background-color: #a6517d;
   }
 
   figcaption.uncategorized {
-    font-family: inherit;
+    font-family: monospace;
     color: #23212d;
     text-transform: uppercase;
     background-color: #b0abb3;
