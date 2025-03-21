@@ -8,7 +8,7 @@ profile:
   image: profile.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>representing [parikshit](parikshitspace.in) at the indian space conclave</p>
+    <p>representing <a href="parikshitspace.in">parikshit</a> at the indian space conclave</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
