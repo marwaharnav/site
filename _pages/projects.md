@@ -11,7 +11,7 @@ horizontal: false
 
 Through the course of my bachelors, I have tried to branch out and learn about the various fields of work in aerospace as well as mechanical engineering, through my participation in Parikshit, internships, as well as lab projects for my courses. These projects are all listed below. 
 
-The key for the projects are as follows :   🛰️ -> modoles at Parikshit ; 💼 -> internships ; 💻 -> lab projects 
+The key for the projects are as follows :  🛰️ -> modules at Parikshit ; 💼 -> internships ; 💻 -> lab projects 
 
 <details>
   <summary>🛰️ System design for a nanosatellite</summary>
