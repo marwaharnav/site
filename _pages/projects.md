@@ -42,10 +42,47 @@ The key for the projects are as follows :   - 🛰️ -> modules at Parikshit ; 
 
 <details>
   <summary>🛰️ Redesign of on board reaction wheels - reducing manufacturing complexity while maintaining moment of inertia</summary>
-  <div
-
+  <p>
+    <p>The existing setup of the reaction wheels in the satellite faced two problems :</p>
+    <ul>
+      <li>The design was too complex to allow for easy manufacturing, which led to high manufacturing costs</li> 
+      <li>They were too large in diameter for them to fit inside the newer vertically stacked internal layout of the satellite.</li>
+    </ul>
+    <p>This led to the following <strong>objectives</strong> for this redesign :</p>
+    <ul>
+      <li>The wheels shall be designed keeping in mind DFMA concepts</li>
+      <li>The wheels shall have a reduced diameter, while maintaining a similar moment of intertia</li>
+    </ul>
+    <p>To meet these objectives, the simplest possible design was considered - a flat disk. This, however did not meet the moment of inertia requirements with the diameter constraints. To compensate for the MOI requirements, circular walls were built on the circumference of the reaction wheel upto a height calculated by working backwards from the required slew rate. The proposed design was then compared to the previous design with spokes with respect to the following:</p> 
+  <ul>
+    <li>weight</li>
+    <li>deformation under the actuation RPM</li>
+    <li>tolerated imbalances</li>
+  </ul>
+  <p>The newer design, once sufficiently analysed, was then then chosen to go ahead with, after which the calculations were done to find the size of the motor shaft hole on the wheel for its interference fit. This marked the end of the reaction wheel redesign.</p>
+  </p>
 </details>
 <details>
   <summary>🛰️ System design of a nanosatellite</summary>
-
+  <p>
+    After COVID, the team required a complete overhaul of each subsystem, as well as the overall system. Changes in STMS have been highlighted in the points above, with major changes to the satellite structure, internal layout and the actuators. Therefore, my first responsibility as a system engineer was to work on designing the system for the team from scratch. This included outlining the system requirements and a V diagram to outline the various stages in the satellite design process. The designed V diagram was essential in developing a tentative timeline for the project as well as the budget the team would require to see the project through. 
+  </p>
+  <p><strong>Objectives:</strong></p>
+  <ul>
+    <li>generate system requirements to track the progress of the team till completion</li>
+    <li>form a tentative timeline till the satellite can be ready for launch</li>
+    <li>
+      form a budget for the satellite, including but not limited to:
+      <ul>
+        <li>tentative launch costs</li>
+        <li>tentative costs for testing</li>
+        <li>manufacturing costs</li>
+        <li>costs of on board components</li>
+      </ul>
+    </li>
+  </ul>
+  <p>
+    This information was then used as the basis of all the team's communication with the college administration, IN-Space, as well as any other administrative meetings the team had with the college as well as outside of it. 
+  </p>
+  <p>As the system engineering position doubled as the position of a team leader, I also led the team, gaining invaluable insight into managing a large group of talented and passionate individuals, and eventually, trained a select group of juniors to take over as system engineers</p>
 </details>
