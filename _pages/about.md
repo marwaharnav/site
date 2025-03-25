@@ -34,7 +34,7 @@ latest_posts:
 #### **my links**
   1. linkedin @ [Linkedin](https://www.linkedin.com/in/arnav-marwaha-a7487a219/)
   2. X (twitter) @ [marwaharnav](https://x.com/marwaharnav)
-  3. [email](marwaharnav0@gmail.com)
+  3. email @ [email](marwaharnav0@gmail.com)
   
 
 ---
